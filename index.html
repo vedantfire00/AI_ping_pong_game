@@ -18,17 +18,37 @@
         <center>
           <div class="btn btn-warning heading">
             <h3>AI Ping Pong game</h3>
-            <button class="btn btn-primary" data-toggle="modal" data-target="#">Instructions</button>
+            <button id="but" class="btn btn-primary" data-toggle="modal" data-target="#mymodal">Instructions</button>
+         
           </div>
     
           <br><br>
           <button class="btn btn-success" id="start">Play game</button>
+          <button id="ton">restart</button>
           <br><br>
           <h3 id="status" class="btn btn-danger"></h3>
           <br><br>
           <div id="canvas"></div>
           <div id="webcam"></div>
+          <div id="mymodal" class="modal fade">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                   <button class="close" data-dismiss="modal">&times;</button>
+                   <h4>Instructions</h4>
+                </div>
+                <div class="modal-body">
+                </div>
+              </div>
+            </div>
+          </div>
         </center>
+
+
+        <h4>
+          Creater : vedant
+        </h4>
+
 
         <script src="main.js"></script>
     </body>
